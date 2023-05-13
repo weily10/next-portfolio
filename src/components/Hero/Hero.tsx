@@ -9,7 +9,7 @@ export default function Hero() {
           <p className="text-green-400 mt-2 italic">frontend developer</p> w/ <span>UIUX</span> sense
         </div>
         <div className="mt-6">
-          <button className="rounded-xl outline p-3">Learn More</button>
+          <button className="rounded-xl outline p-3 hover:bg-white hover:text-cyan-950">Learn More</button>
         </div>
       </div>
     </>

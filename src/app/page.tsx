@@ -4,6 +4,7 @@ import img from './images/profile.jpg'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
 import Projects from '@/components/Projects/projects'
+import About from '@/components/About/about'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Header></Header>
         <Hero></Hero>
         <Projects></Projects>
+        <About></About>
 
         
         
