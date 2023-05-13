@@ -3,14 +3,16 @@ import Link from 'next/link'
 import img from './images/profile.jpg'
 import Header from '../components/Header/Header'
 import Hero from '../components/Hero/Hero'
+import Projects from '@/components/Projects/projects'
 
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-16">
 
-      <div className="z-10 w-full px-24  items-center  font-mono text-sm">
+      <div className="z-10 w-full px-24  items-center  font-mono text-sm  max-w-screen-lg mx-auto">
         <Header></Header>
         <Hero></Hero>
+        <Projects></Projects>
 
         
         
